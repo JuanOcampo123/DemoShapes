@@ -20,4 +20,6 @@ public abstract class Shape {
     public void setY(int newY){
         y = newY;
     }
+
+    public abstract double getArea();
 }

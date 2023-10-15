@@ -1,3 +1,10 @@
+import model.Circle;
+import model.Oval;
+import model.Rect;
+import model.RectTriangle;
+import model.Shape;
+import model.Square;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -5,7 +12,7 @@ public class Main {
         s.setWidth(100);
         s.setHeight(200);
 
-        Shape [] shapes = new Shape[5];
+        Shape[] shapes = new Shape[5];
         shapes[0] = new Square();
         shapes[1] = new Rect();
         shapes[2] = new RectTriangle();
